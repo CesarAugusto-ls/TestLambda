@@ -11,7 +11,7 @@ public class FaturaDAO {
 	
 	public List<Fatura> buscarFaturasVencidas(){
 		
-		Fatura f1 = new Fatura("ze@ze.com.br", 350.00, LocalDate.now().minusDays(3));
+		Fatura f1 = new Fatura("ze1@ze1.com.br", 350.00, LocalDate.now().minusDays(3));
 		Fatura f2 = new Fatura("maria@maria.com.br", 150.00, LocalDate.now().minusDays(2));
 		Fatura f3 = new Fatura("joao@joao.com.br", 250.00, LocalDate.now().minusDays(5));	
 		
